@@ -210,7 +210,7 @@ const HomeComponent = () => {
                         </div>
                         <div className={homeStyle.lastPgLeftPortion}>
                             <div className={homeStyle.heading5}>So why is Φ such a special number?</div>
-                            <div className={homeStyle.paragraph}>
+                            <div className={homeStyle.paragraph2}>
                                 <p >This is my personal view, hence, open to discussion. Here is what I think is happening:<br/> 
                                 The straight line of length a+b could have been divided in an infinite number of ways, yet the point of subdivision is chosen so that a mathematical relationship is established between the two sections a and b such that a/b = a+b/a! Any other solution seems unjustified. Put differently, the solution whereby a / b is mathematically analogous to a + b / a, is both ‘fair’ and aesthetically the most pleasing! The connection of the parts to the whole is logically justified when a/b = Φ. By comparison, any other ratio seems more arbitrary.
 </p>

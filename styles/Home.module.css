@@ -217,6 +217,20 @@
 .paragraph p{
   margin-bottom:31px;
 }
+.paragraph2 {
+  margin-top: 78px;
+  font-size: 16px;
+  font-weight: 310;
+  font-family: 'Open Sans';
+  color: #13365C;
+  text-align: left;
+  line-height: 18.88px;
+  max-width: 510px;
+   
+}
+.paragraph2 p{
+  margin-bottom:31px;
+}
 .heading5{
   font-weight: 415;
   font-size: 25px;
