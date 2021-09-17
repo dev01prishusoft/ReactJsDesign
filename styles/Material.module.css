@@ -1,0 +1,86 @@
+.mainDiv{
+    text-align: center;
+    height: 733px;
+    /* min-height: 1533px;
+    max-height: 1533px; */
+}
+.heading{
+    font-weight: 700;
+    font-size: 50px;
+    color: #13365C;
+    font-family: Sequel Sans;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+  .flipBookContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 10px 40px;
+    position: absolute;
+    z-index: 10;
+  }
+  .arrowIcon{
+    width: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .flipBookDiv{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    margin: auto;
+    overflow: auto !important;
+  }
+  .flipBookTitle{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Sequel Sans;
+    color: #13365C;
+    margin-bottom: 10px;
+  }
+  .flipBookDesc{
+    font-size: 16px;
+    font-weight: 310;
+    color: #13365C;
+    font-family: Sequel Sans;
+    margin-top: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .demoPage{
+    padding: 40px 60px;
+    background-color: #fdfaf7;
+    color: #785e3a;
+    border: 1px solid #c2b5a3;
+    overflow: auto;
+  }
+
+  .demoPage:nth-child(odd) {
+    border-right: 0;
+    box-shadow: inset -7px 0 30px -7px rgb(0 0 0 / 40%);
+  }
+  
+  .demoPage:nth-child(even) {
+    border-left: 0;
+    box-shadow: inset 7px 0 30px -7px rgb(0 0 0 / 40%);
+  }
+  .demoBook{
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 50%);
+    margin: auto auto;
+    /* display: none; */
+    z-index: 100;
+  }
+
+  .halfCover{
+    height: 50%;
+    position: absolute;
+    background-color: #E5E5E5;
+    width: 100%;
+    top: 50%;
+    z-index: 1;
+  }

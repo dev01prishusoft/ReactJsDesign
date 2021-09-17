@@ -1,0 +1,205 @@
+.mainDiv{
+  text-align: center;
+}
+.pageBlock{
+  padding: 40px 70px;
+}
+.heading{
+  font-weight: 700;
+  font-size: 50px;
+  font-family: Sequel Sans;
+  color: #13365C;
+  margin-bottom: 20px;
+}
+.imageCards{
+  display: flex;
+  justify-content: center;
+  padding: 0 20px 10px 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.singleImage{
+  margin: 10px;
+}
+.singleImage3{
+  margin: 10px;
+  width: 255px;
+}
+.imageName{
+  font-size: 20px;
+  color: #13365C;
+  font-family: Sequel Sans;
+  font-weight: 415;
+}
+
+
+.pageBlock2{
+  padding: 40px 70px;
+  background-color: #E5E5E5;
+}
+.logoImageCards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.singleLogoImage{
+  margin: 10px 15px;
+}
+
+
+.musicalImgPortion{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 70px;
+}
+.acousticiansContent{
+  width: 450px;
+  padding-right:  30px;
+  text-align: start !important;
+}
+.heading2{
+  font-weight: 700;
+  font-size: 50px;
+  color: #13365C;
+  font-family: Sequel Sans;
+  margin-bottom: 30px;
+}
+.listItemStyle{
+  font-size: 20px;
+  font-family: Sequel Sans;
+  font-weight: 310;
+  color: #022449;
+  margin-left: -15px !important;
+}
+
+
+.acousticMaterialPortion{
+  margin-top: 40px;
+  padding: 0 70px;
+  text-align: start !important;
+  margin-bottom: 30px;
+}
+.heading3{
+  font-weight: 700;
+  font-family: Sequel Sans;
+  font-size: 45px;
+  color: #13365C;
+}
+.detailContent{
+  font-weight: 415;
+  font-size: 20px;
+  font-family: Sequel Sans;
+  line-height: 29px;
+  color: #13365C;
+}
+
+
+.listItemStyle2{
+  font-size: 20px;
+  font-family: Sequel Sans;
+  font-weight: 310;
+  color: #022449;
+  margin-left: -15px !important;
+  text-align: start !important;
+  padding: 0 20px;
+  margin: 10px;
+}
+
+.listItemStyle3{
+  font-size: 20px;
+  font-family: Sequel Sans;
+  font-weight: 310;
+  color: #022449;
+  padding: 20px !important;
+  text-align: start !important;
+  width: 255px;
+  margin: 10px !important;
+}
+
+
+.acousticDesignPortion{
+  margin: 5px 0 20px 0;
+}
+.heading4{
+  font-weight: 700;
+  font-size: 45px;
+  color: #13365C;
+  font-family: Sequel Sans;
+  margin-top: 20px;
+}
+
+
+
+.pageBlock3{
+  padding: 70px 110px;
+  display: block;
+  width: 100%;
+}
+.firstDiv{
+  display: flex;
+  justify-content: space-between;
+}
+.secondDiv{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.lastPgLeftPortion{
+  text-align: start !important;
+}
+.lastPgRightPortion{
+  display: block;
+}
+.singleImage2{
+  margin: 10px;
+  /* width: 255px; */
+}
+.paragraph{
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 310;
+  font-family: Sequel Sans;
+  color: #13365C;
+  margin-right: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 18.88px;
+}
+.heading5{
+  font-weight: 415;
+  font-size: 25px;
+  line-height: 29px;
+  color: #13365C;
+  font-family: Sequel Sans;
+  margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 1108px) {
+  .lastPgRightPortion{
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+  }
+  .firstDiv{
+    display: block !important;
+  }
+  .secondDiv{
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .musicalImgPortion{
+    padding: 0px !important;
+  }
+  .acousticMaterialPortion{
+    padding: 0px !important;
+  }
+  .pageBlock3{
+    padding: 70px 30px !important;
+  }
+}

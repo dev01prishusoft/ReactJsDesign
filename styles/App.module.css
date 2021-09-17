@@ -1,0 +1,28 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .innerContainer{
+    width: 100vw;
+    display: block;
+  }
+  .spacing{
+      margin: 20px 10px;
+  }
+  .enterBtn{
+    background-color: #13365C;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 277px;
+    border-color: transparent;
+    height: 65px; 
+    font-weight: 415;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.22em;  
+    font-family: Sequel Sans;
+  }

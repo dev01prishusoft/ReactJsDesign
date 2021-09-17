@@ -1,0 +1,50 @@
+.nav{
+    height: 70px;
+    padding: 0 30px;
+    background: rgb(132, 170, 185);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: Sequel Sans;
+    width: 100%;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+}
+
+.leftHeader{
+    font-weight: normal;
+    font-size: 28px;
+    font-family: Sequel Sans;
+    line-height: 33px;
+    color: #13365C;
+}
+
+.rightHeader{
+    font-weight: 415;
+    color: #13365C;
+    opacity: 0.5;
+    font-size: 20px;
+    font-family: Sequel Sans;
+    line-height: 24px;
+    letter-spacing: 0.22em;
+}
+.rightHeaderActive{
+    font-weight: 415;
+    color: #13365C;
+    font-size: 20px;
+    font-family: Sequel Sans;
+    line-height: 24px;
+    letter-spacing: 0.22em;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li{
+    margin: 10px;
+}
