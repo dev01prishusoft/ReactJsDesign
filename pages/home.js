@@ -29,7 +29,7 @@ const HomeComponent = () => {
                     <div className={homeStyle.imageCards}>
                         {imageData.map(d => (
                             <div key={d.id} className={homeStyle.singleImage}>
-                                <img src={`${d.imageURL}`} alt="designPhotos" height="316" width="350" />
+                                <img src={`${d.imageURL}`} alt="designPhotos" height="316" width="379" />
                                 <div className={homeStyle.imageName}>{d.imageType}</div>
                             </div>
                         ))}
@@ -48,7 +48,7 @@ const HomeComponent = () => {
                     <div className={homeStyle.heading}>Running Photo Images</div>
                     <div className={homeStyle.imageCards}>
                         {runningImageList.map(d => (
-                            <div key={d.id} className={homeStyle.singleImage}>
+                            <div key={d.id} className={homeStyle.singleImage4}>
                                 <img src={d.imageURL} alt="designPhotos" height="255" width="255" />
                             </div>
                         ))}
@@ -56,11 +56,11 @@ const HomeComponent = () => {
                 </div>
                 <div className={homeStyle.pageBlock2}>
                     <div className={homeStyle.musicalImgPortion}>
-                        <img src={musicalRoom.src} alt="MusicRoom" height="425" width="580" />
+                        <img src={musicalRoom.src} alt="MusicRoom" height="487" width="560" />
                         <div className={homeStyle.acousticiansContent}>
-                            <div className={homeStyle.heading2}>Expert  solutions by
+                            <p className={homeStyle.heading2}>Expert  solutions by
                                 highly qualified acousticians
-                        </div>
+                            </p>
                             <ul className={homeStyle.listItemStyle}>
                                 <li>Architectural Acoustics</li>
                                 <li>Building Acoustics</li>
@@ -96,7 +96,7 @@ const HomeComponent = () => {
                 </div>
                 <div className={homeStyle.pageBlock}>
                     <div className={homeStyle.heading}>Hundreds of hugely successful projects:</div>
-                    <div className={homeStyle.imageCards}>
+                    <div className={homeStyle.imageCards2}>
                         <ul className={homeStyle.listItemStyle3}>
                             <li>Schools</li>
                             <li>Offices</li>
@@ -132,7 +132,7 @@ const HomeComponent = () => {
                     </div>
                     <div className={homeStyle.imageCards}>
                         {successfulImgList.map(d => (
-                            <div key={d.id} className={homeStyle.singleImage}>
+                            <div key={d.id} className={homeStyle.singleImageProduct}>
                                 <img src={d.imageURL} alt="designPhotos" height="255" width="255" />
                             </div>
                         ))}
@@ -142,19 +142,18 @@ const HomeComponent = () => {
                     <div className={homeStyle.heading}>New Products</div>
                     <div className={homeStyle.imageCards}>
                         {newProductList.map(d => (
-                            <div key={d.id} className={homeStyle.singleImage}>
+                            <div key={d.id} className={homeStyle.singleImageProduct}>
                                 <img src={d.imageURL} alt="designPhotos" height="255" width="255" />
                             </div>
                         ))}
                     </div>
                     <div className={homeStyle.acousticDesignPortion}>
                         <div className={homeStyle.heading4}>Acoustic  Design</div>
-                        <div className={homeStyle.detailContent}>Acoustic Science solutions in perfect integration</div>
-                        <div className={homeStyle.detailContent}>with the Architecture and Interior Design of spaces</div>
+                        <div className={homeStyle.headingSubContent4}>Acoustic Science solutions in perfect integration with the Architecture and Interior Design of spaces </div>
                     </div>
-                    <div className={homeStyle.imageCards}>
+                    <div className={homeStyle.imageCards3}>
                         {acousticDesignList.map(d => (
-                            <div key={d.id} className={homeStyle.singleImage}>
+                            <div key={d.id} className={homeStyle.singleImageProduct}>
                                 <img src={d.imageURL} alt="designPhotos" height="255" width="255" />
                             </div>
                         ))}
@@ -202,19 +201,19 @@ const HomeComponent = () => {
                     </div>
                     <div className={homeStyle.secondDiv}>
                         <div className={homeStyle.lastPgRightPortion} style={{ marginRight: '10px' }}>
-                            <div className={homeStyle.singleImage2}>
+                            <div className={homeStyle.singleImage3}>
                                 <img src={sixthImg.src} alt="designPhotos" height={sixthImg.height} width={sixthImg.width} />
                             </div>
-                            <div className={homeStyle.singleImage2}>
+                            <div className={homeStyle.singleImage3}>
                                 <img src={saventhImg.src} alt="designPhotos" height={saventhImg.height} width={saventhImg.width} />
                             </div>
                         </div>
                         <div className={homeStyle.lastPgLeftPortion}>
                             <div className={homeStyle.heading5}>So why is Φ such a special number?</div>
                             <div className={homeStyle.paragraph}>
-                                <p>This is my personal view, hence, open to discussion. Here is what I think is happening:</p>
-                                <p>The straight line of length a+b could have been divided in an infinite number of ways, yet the point of subdivision is chosen so that a mathematical relationship is established between the two sections a and b such that a/b = a+b/a! Any other solution seems unjustified. Put differently, the solution whereby a / b is mathematically analogous to a + b / a, is both ‘fair’ and aesthetically the most pleasing! The connection of the parts to the whole is logically justified when a/b = Φ. By comparison, any other ratio seems more arbitrary.</p>
-
+                                <p >This is my personal view, hence, open to discussion. Here is what I think is happening:<br/> 
+                                The straight line of length a+b could have been divided in an infinite number of ways, yet the point of subdivision is chosen so that a mathematical relationship is established between the two sections a and b such that a/b = a+b/a! Any other solution seems unjustified. Put differently, the solution whereby a / b is mathematically analogous to a + b / a, is both ‘fair’ and aesthetically the most pleasing! The connection of the parts to the whole is logically justified when a/b = Φ. By comparison, any other ratio seems more arbitrary.
+</p>
                                 <p>Isn’t this absolutely amazing?  That which satisfies the mind and soul is also perceived by the eye as the most beautiful! It seems that, if a large number of candidates were given the task of dividing the line, their average choice would converge on the mathematically ‘correct’ Φ.</p>
                                 <p>It can be argued that Φ establishes a link between aesthetics and ethics. Apparently, the morally correct is also aesthetically beautiful!
                                 Put differently, moral and aesthetic choices are governed by the same criterion. The question then can be asked: Are morality and beauty two different aspects of a single quality or are they one and the same? In ancient Greek the word ‘καλός’ had the dual meaning of ‘beautiful’ and ‘virtuous’, so for the Greeks there was no such dilemma! The noun ‘κάλλος’ which means ‘beauty’ in Greek – both ancient and modern- is derived from ‘καλός’ which means ‘virtuous’. Beauty is inextricably linked with virtue. Not only did they believe this but also Plato’s Golden section Φ, provided the mathematical proof! This may be the reason why Plato considered that absolute reality existed as a mathematical abstraction of ideal forms, which were only approximately copied in the actual world perceived by the senses.

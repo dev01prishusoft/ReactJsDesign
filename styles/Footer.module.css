@@ -1,5 +1,5 @@
 .pageBlock{
-    padding-top: 70px;
+    padding-top: 150px;
     background-color: #E5E5E5;
   }
   .footerBox{
@@ -8,10 +8,11 @@
     text-align: start !important;
   }
   .footerTitle{
-    margin-bottom: 20px;
+    margin-bottom: 61px;
+    margin-top: 81px;
     font-weight: bold;
     font-size: 28px;
-    font-family: Sequel Sans;
+    font-family: 'Open Sans';
     line-height: 33px;
     color: #FFFFFF;
   }
@@ -23,15 +24,18 @@
   .footerInfo{
     font-weight: 310;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 26px;
     color: #FFFFFF;
-    font-family: Sequel Sans;
+    font-family: 'Open Sans';
   }
   .office{
     font-weight: 415;
     font-size: 25px;
     line-height: 29px;
     color: #FFFFFF;
-    margin-bottom: 10px;
-    font-family: Sequel Sans;
+    margin-bottom: 17px;
+    font-family: 'Open Sans';
+  }
+  .contactTitle{
+    max-width: 240px;
   }

@@ -1,13 +1,16 @@
 .nav{
-    height: 70px;
-    padding: 0 30px;
-    background: rgb(132, 170, 185);
+    height:140px;
+    display: flex;
+  justify-content: center;
+  padding: 0 20px 10px 20px;
+  flex-wrap: wrap;
+  background: #DAE0E5;
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 14px;
-    font-family: Sequel Sans;
+    font-family: 'Open Sans';
     width: 100%;
     position: sticky;
     z-index: 999;
@@ -17,25 +20,26 @@
 .leftHeader{
     font-weight: normal;
     font-size: 28px;
-    font-family: Sequel Sans;
+    font-family: 'Open Sans';
     line-height: 33px;
     color: #13365C;
+    margin-right:350px;    
 }
 
 .rightHeader{
-    font-weight: 415;
+    font-weight: normal;
     color: #13365C;
     opacity: 0.5;
     font-size: 20px;
-    font-family: Sequel Sans;
+    font-family: 'Open Sans';
     line-height: 24px;
     letter-spacing: 0.22em;
 }
 .rightHeaderActive{
-    font-weight: 415;
+    font-weight: normal;
     color: #13365C;
     font-size: 20px;
-    font-family: Sequel Sans;
+    font-family: 'Open Sans';
     line-height: 24px;
     letter-spacing: 0.22em;
 }
@@ -46,5 +50,7 @@
 }
 
 .nav ul li{
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 88px;
 }

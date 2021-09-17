@@ -2,14 +2,14 @@
   text-align: center;
 }
 .pageBlock{
-  padding: 40px 70px;
+  padding: 96px 0px;
 }
 .heading{
   font-weight: 700;
   font-size: 50px;
-  font-family: Sequel Sans;
+  font-family: 'Open Sans';
   color: #13365C;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .imageCards{
   display: flex;
@@ -18,8 +18,33 @@
   flex-wrap: wrap;
   width: 100%;
 }
+.imageCards2{
+  display: flex;
+  justify-content: center;
+  padding: 0 20px 10px 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.imageCards3{
+  display: flex;
+  justify-content: center;
+  padding: 0 20px 10px 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 50px;
+}
+.singleImageProduct{
+  margin-right: 50px;
+  margin-bottom: 37px;
+}
 .singleImage{
-  margin: 10px;
+  margin-right: 15px;
+  margin-bottom: 29px;
+}
+.singleImage4{
+  margin-right: 50px;
+  margin-bottom: 37px;
 }
 .singleImage3{
   margin: 10px;
@@ -28,13 +53,17 @@
 .imageName{
   font-size: 20px;
   color: #13365C;
-  font-family: Sequel Sans;
+  font-family: 'Open Sans';
   font-weight: 415;
+  margin-top:29px;
 }
 
 
 .pageBlock2{
-  padding: 40px 70px;
+  padding-top: 120px;
+  padding-bottom: 70px;
+  padding-left:0px;
+  padding-right:0px;
   background-color: #E5E5E5;
 }
 .logoImageCards{
@@ -44,35 +73,38 @@
   width: 100%;
 }
 .singleLogoImage{
-  margin: 10px 15px;
+  margin-left:0px;
+  margin-right:50px;
+  margin-bottom: 50px;
 }
 
 
 .musicalImgPortion{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  padding: 0 70px;
-}
+  }
 .acousticiansContent{
-  width: 450px;
-  padding-right:  30px;
-  text-align: start !important;
+  margin-left: 49px;
+   
 }
 .heading2{
   font-weight: 700;
   font-size: 50px;
   color: #13365C;
-  font-family: Sequel Sans;
+  font-family: 'Open Sans';
   margin-bottom: 30px;
+  max-width: 563px;
+  margin-top:0px;
+  text-align: left;
 }
 .listItemStyle{
   font-size: 20px;
-  font-family: Sequel Sans;
+  font-family: 'Open Sans';
   font-weight: 310;
   color: #022449;
-  margin-left: -15px !important;
+  text-align: left;
 }
 
 
@@ -84,22 +116,23 @@
 }
 .heading3{
   font-weight: 700;
-  font-family: Sequel Sans;
+  font-family: 'Open Sans';
   font-size: 45px;
   color: #13365C;
 }
 .detailContent{
   font-weight: 415;
   font-size: 20px;
-  font-family: Sequel Sans;
+  font-family: 'Open Sans';
   line-height: 29px;
   color: #13365C;
+  max-width: 771px;
 }
 
 
 .listItemStyle2{
   font-size: 20px;
-  font-family: Sequel Sans;
+  font-family: 'Open Sans';
   font-weight: 310;
   color: #022449;
   margin-left: -15px !important;
@@ -110,7 +143,7 @@
 
 .listItemStyle3{
   font-size: 20px;
-  font-family: Sequel Sans;
+  font-family: 'Open Sans';
   font-weight: 310;
   color: #022449;
   padding: 20px !important;
@@ -127,10 +160,18 @@
   font-weight: 700;
   font-size: 45px;
   color: #13365C;
-  font-family: Sequel Sans;
+  font-family: 'Open Sans';
   margin-top: 20px;
 }
-
+.headingSubContent4{
+  font-weight: 415;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  line-height: 29px;
+  color: #13365C;
+  max-width: 771px;
+  margin:auto;
+}
 
 
 .pageBlock3{
@@ -157,24 +198,32 @@
   margin: 10px;
   /* width: 255px; */
 }
+.singleImage3{
+  margin-right: 49px;
+  /* width: 255px; */
+}
 .paragraph{
-  margin-top: 30px;
+  margin-top: 78px;
+  margin-right: 44px;
   font-size: 16px;
   font-weight: 310;
-  font-family: Sequel Sans;
+  font-family: 'Open Sans';
   color: #13365C;
-  margin-right: 10px;
   text-align: justify;
   text-justify: inter-word;
   line-height: 18.88px;
+  max-width: 566px;
+}
+.paragraph p{
+  margin-bottom:31px;
 }
 .heading5{
   font-weight: 415;
   font-size: 25px;
   line-height: 29px;
   color: #13365C;
-  font-family: Sequel Sans;
-  margin-bottom: 10px;
+  font-family: 'Open Sans';
+ 
 }
 
 

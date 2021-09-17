@@ -1,6 +1,7 @@
 .mainDiv{
     text-align: center;
-    height: 733px;
+    height: 730px;
+   
     /* min-height: 1533px;
     max-height: 1533px; */
 }
@@ -8,12 +9,10 @@
     font-weight: 700;
     font-size: 50px;
     color: #13365C;
-    font-family: Sequel Sans;
+    font-family: 'Open Sans';
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
 
   .flipBookContainer{
     display: flex;
@@ -34,12 +33,12 @@
     height: 100%;
     padding-top: 30px;
     margin: auto;
-    overflow: auto !important;
+    overflow: hidden !important;
   }
   .flipBookTitle{
     font-weight: 700;
     font-size: 30px;
-    font-family: Sequel Sans;
+    font-family: 'Open Sans';
     color: #13365C;
     margin-bottom: 10px;
   }
@@ -47,7 +46,7 @@
     font-size: 16px;
     font-weight: 310;
     color: #13365C;
-    font-family: Sequel Sans;
+    font-family: 'Open Sans';
     margin-top: 10px;
     text-align: justify;
     text-justify: inter-word;
